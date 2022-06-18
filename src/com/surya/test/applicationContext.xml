@@ -10,14 +10,8 @@
 </bean>
 <bean id="tokenmachine" class="com.surya.beans.TokenMachine" scope="singleton">
 <lookup-method name="createToken" bean="token"/>
-</bean>
-<bean id="student" class="com.surya.beans.Student" >
-<property name="name" value=""></property>
-<property name="id" value=""></property>
 
-</bean>
-<bean id="validate" class="com.surya.validations.StudentValidator" >
-<property name="resource" value="/com/surya/beans/config.properties"></property>
+
 </bean>
 
 </beans>
