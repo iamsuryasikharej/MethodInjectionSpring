@@ -1,16 +1,10 @@
 package com.surya.beans;
 
 
-public abstract class Student {
+public class Student {
 private String name;
 private String id;
 
-
-protected abstract Course setCourse();
-public Course getCourse()
-{
-	return setCourse();
-}
 
 public String getName() {
 	return name;
